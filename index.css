@@ -1,0 +1,48 @@
+html{
+    background-image: url(images/table.jpg);
+    background-size: cover;
+    font-weight: bold;
+}
+body{
+    text-align: center;
+}
+.blackjack{
+    font-size: 100px;
+    font-weight: 700;
+    color: goldenrod;
+    margin: 15px -5px 0 -5px;
+}
+div{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: -6px;
+    color: white;
+}
+.message{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+button{
+    font-family: 'Bebas Neue', cursive;
+    margin: 20px 5px 20px 5px;
+    width: 140px;
+    height: 40px;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 50px;
+}
+button:hover{
+    cursor: pointer;
+}
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    height: 40px;
+    width: 140px;
+    border-style: none;
+    text-align: center;
+}

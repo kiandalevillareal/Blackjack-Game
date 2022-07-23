@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html id="screen" lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Jack</title>
+  </head>
+  <body>
+    <div id="h1-el" class="blackjack">BLACKJACK</div>
+    <div class="banker">Banker's Total:</div>
+    <div id="bankersCard-el"></div>
+    <div class="message" id="message-el">Want to play?</div>
+    <div id="cards-el">Cards:</div>
+    <div id="sum-el">Sum:</div>
+    <button id="start-btn" onclick="start()">START</button>
+    <button id="hit-btn" onclick="hit()">HIT</button>
+    <button id="stand-btn" onclick="stand()">STAND</button>
+    <button id="reset-btn" onclick="reset()">RESET</button>
+    <div id="cash-el"></div>
+    <div id="player-el"></div>
+    <input id="bet-el" type="number" min="5" step="5" placeholder="0" />
+    <button id="bet-btn" onclick="bet()">PLACE BET</button>
+    <script src="index.js"></script>
+  </body>
+</html>
